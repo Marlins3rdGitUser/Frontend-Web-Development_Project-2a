@@ -40,19 +40,20 @@ th {
 td {
     text-align: left;    
 }
-.removeItemTH {
-    max-width: 2rem;
-    padding: 0;
+.addToShopListButton {
+    padding: 0.5rem 1rem;
+    background-color: #4CAF50;
+    color: white;
 }
-.removeItemTD {
-    padding: 0;
-    text-align: center;
+.inShoppingListButton {
+    background-color: #596b5a;
+    color: white;
 }
-.removeItem {
-    padding: 1rem;
-    width: 100%;
+.removeFromShopListButton {
+    padding: 0.5rem 1rem;
+    background-color: #f44336;
+    color: white;
 }
-
 
 /*Random classes, dunno.*/
 .boxify {

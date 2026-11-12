@@ -15,10 +15,7 @@
 
             <section id="productList"> 
                 <div id="searchbar" class="boxify flexcenter">
-                    <input type="text" id="searchInput" placeholder="Product name...">
-                    <button id="searchButton">Search</button>
-                    <span style="padding: .5rem;"></span>
-                    <button id="searchFiltering">Filtering</button>
+                    <button id="searchButton">Get items</button>
                     <button id="shoppingListButton">Open Shopping List</button>
                 </div>
                 <table id="productSearchList">
@@ -28,12 +25,13 @@
                             <th>Product Name</th>
                             <th>Product Price</th>
                             <th>Product Description</th>
+                            <th></th>
                         </tr>
                     </thead>
                     <tbody id="productListBody">
                     </tbody>
                 </table>
-                <h1 id="message1" class="boxify">Press "Search" to list products.</h1>
+                <h1 id="message1" class="boxify">Press "Get items" to list products.</h1>
             </section>
 
 
@@ -54,10 +52,9 @@
                     </thead>
                     <tbody id="shoppingListTableBody">
                     </tbody>
-                    <h1 id="message2" class="boxify">Hello! :D</h1>
                 </table>
+                <h1 id="message2" class="boxify">This list is empty!</h1>
             </section>
-
         </main>
     </body>
 </html>

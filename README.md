@@ -13,8 +13,8 @@ Nopeasti tehty yleinen shop sivusto.
 Listaa vähintään kolme sovellukseesi suunniteltua toimintoa:
 
 - Sivusto hakee tuotteia ja näyttää ne.
-- Käyttäjä voi hakea tiettyjä tuotteita.
-- Käyttäjät voivat lisätä tuotteet listaan ja semmoista.
+- Käyttäjä voi lisätä tuotteia ostos listaan.
+- Käyttäjät voi vaihtaa näkymää ostos listaan ja poistaa tuotteita sieltä.
 
 ### Rautalankamalli / luonnos
 
@@ -28,10 +28,8 @@ Listaa vähintään kolme sovellukseesi suunniteltua toimintoa:
 
 ## Tietoja sovelluksesta
 
-**Another Generic Shop** on verkkosovellus, joka antaa käyttäjän hakea eri tuotteita
-ja tehdä niistä ostos listan.
+**Another Generic Shop** on verkkosovellus, joka antaa käyttäjän hakea eri tuotteita ja antaa käyttäjän tehdä niistä ostos listan.
 
-Kuvaile lyhyesti sovelluksen tarkoitus ja tärkeimmät toiminnot.
 
 ## Teknologiat
 
@@ -40,18 +38,17 @@ Kuvaile, mitä teknologioita käytit ja mikä niiden rooli oli projektissasi.
 - HTML – sivun rakenne
 - CSS – ulkoasu ja asettelu
 - JavaScript – toiminnallisuus, DOM-skriptaus ja lomakkeiden validointi
-- localStorage – tietojen tallentaminen selaimeen.
+- Ulkoinen API – [Tuotteiden tiedot ja semmoista. (Linkki)](https://fakestoreapi.com/)
 
 ## Sovelluksen käyttö
 
 Kirjoita lyhyet käyttöohjeet sovellukselle.
 
 1. Avaa julkaistu sovellus yllä olevasta linkistä.
-2. Kirjoita hakukentään tuotteiden nimi ja paina "Hae tuotteita".
+2. Paina "Get items" nappia.
 3. Paina "Lisää" nappeja tuoteiden vieressä lisääkseen ne listaan.
 4. Paina "Katso Ostoslista" nähdäkseen listan.
 5. Poistaa asiat mainitusta listasta.
-6. Uudista sivusto nähdäkseen sivun talentaneen listan.
 
 ## Sovelluksen käynnistäminen paikallisesti
 
@@ -61,34 +58,27 @@ Kirjoita lyhyet käyttöohjeet sovellukselle.
 
 ## Kuvakaappaukset
 
-Lisää tähän vähintään yksi kuvakaappaus toimivasta sovelluksestasi.
+![Kuvakaappaus tuote listasta](CSS%26Images/ImageOne.png)
 
-Esimerkki kuvan lisäämisestä:
-
-![Kuvakaappaus sovelluksesta](img/screenshot.png)
+![Kuvakaappaus ostos listasta](CSS%26Images/ImageTwo.png)
 
 ## Tunnetut virheet / puutteet
 
- **Ei tunnettuja virheitä.**
+ Uuden listan hakemisessa ei tarkistetta onko tuote jo ostoslistassa, mikä antaa sivuston lisätä enemän kuin yhden asian listaan.
 
 ## Oma arvio ja oppimisen reflektointi
 
 Pohdi työtäsi ja oppimisprosessiasi.
 
-- Missä onnistuin?
-- Mikä oli haastavaa?
-- Mitä parantaisin, jos aikaa olisi enemmän?
-- Mitä opin HTML:stä, CSS:stä, JavaScriptistä ja DOM-skriptauksesta?
-- Mikä jäi epäselväksi tai mistä haluaisin oppia lisää?
-- Oma arvio projektista: **xx/10 pistettä**
+- Missä onnistuin? **Aika hyvin.**
+- Mikä oli haastavaa? **En osaa sanoa.**
+- Mitä parantaisin, jos aikaa olisi enemmän? **Lisäisin enemän toimintoja**
+- Mitä opin HTML:stä, CSS:stä, JavaScriptistä ja DOM-skriptauksesta? **Miten API toimii.**
+- Mikä jäi epäselväksi tai mistä haluaisin oppia lisää? **En tiedä.**
+- Oma arvio projektista: **09/10 pistettä**
 
 ## Lähteet ja kiitokset
 
-Listaa kaikki projektissa käyttämäsi lähteet, tutoriaalit, kuvat ja koodiesimerkit.
-
-Jos käytit ChatGPT:tä, GitHub Copilotia tai muuta tekoälytyökalua, mainitse se tässä ja kerro lyhyesti, miten se tuki työskentelyäsi.
-
-- [Lähteen tai tutoriaalin nimi](https://example.com/)
-- [Kuvalähde](https://example.com/)
-- Käytetty tekoälytyökalu: ...
-  - Miten työkalua käytettiin: ...
+- [FakeStoreAPI (Käytetty API tehtävässä.) (Linkki)](https://fakestoreapi.com/)
+- Käytetty tekoälytyökalu: Mitä VS Code käyttää auto täydentäjänä/korjaajana.
+  - Miten työkalua käytettiin: Se automaatisesti korjasi virheitä ja rakenti muutamia toimintojen skeletonit.
