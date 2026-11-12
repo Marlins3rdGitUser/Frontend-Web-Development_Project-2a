@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fi">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Another Generic Shop</title>
+        <link rel="stylesheet" href="CSS%26Images/styles.css">
+        <script src="JS/scripts.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <h1 class="centerify">Another generic shop.</H1>
+        </header>
+        <main>
+
+            <section id="productList"> 
+                <div id="searchbar" class="boxify flexcenter">
+                    <input type="text" id="searchInput" placeholder="Product name...">
+                    <button id="searchButton">Search</button>
+                    <span style="padding: .5rem;"></span>
+                    <button id="searchFiltering">Filtering</button>
+                    <button id="shoppingListButton">Open Shopping List</button>
+                </div>
+                <table id="productSearchList">
+                    <thead>
+                        <tr>
+                            <!-- <th class="ProductImgTH"></th> Unused for now. -->
+                            <th>Product Name</th>
+                            <th>Product Price</th>
+                            <th>Product Description</th>
+                        </tr>
+                    </thead>
+                    <tbody id="productListBody">
+                    </tbody>
+                </table>
+                <h1 id="message1" class="boxify">Press "Search" to list products.</h1>
+            </section>
+
+
+
+            <section id="shoppingList">
+                <table id="shoppingListTable">
+                    <div id="topSection" class="boxify">
+                        <button id="closeShoppingList">Close Shopping List</button>
+                        <h2>Shopping List</h2>
+                    </div>
+                    <thead>
+                        <tr>
+                            <th>Product Name</th>
+                            <th>Product Price</th>
+                            <th>Product Description</th>
+                            <th class="removeItemTH">Remove</th>
+                        </tr>
+                    </thead>
+                    <tbody id="shoppingListTableBody">
+                    </tbody>
+                    <h1 id="message2" class="boxify">Hello! :D</h1>
+                </table>
+            </section>
+
+        </main>
+    </body>
+</html>
