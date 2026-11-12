@@ -22,9 +22,9 @@ Listaa vähintään kolme sovellukseesi suunniteltua toimintoa:
 
 ## Verkkolinkit
 
-- **Julkaistu sovellus:** [Lisää tähän GitHub Pages -osoite](https://yourusername.github.io/your-repository/)
-- **GitHub-repositorio:** [Lisää tähän repositorion osoite](https://github.com/yourusername/your-repository)
-- **Projektin videoesittely:** [Lisää tähän videon osoite](https://example.com/)
+- **Julkaistu sovellus:** [Sivusto](https://marlins3rdgituser.github.io/Frontend-Web-Development_Project-2a/)
+- **GitHub-repositorio:** [Repositio](https://github.com/Marlins3rdGitUser/Frontend-Web-Development_Project-2a)
+- **Projektin videoesittely:** [Laurea Video (Unlisted)](https://video.laurea.fi/media/t/0_u3cqo0ff)
 
 ## Tietoja sovelluksesta
 
